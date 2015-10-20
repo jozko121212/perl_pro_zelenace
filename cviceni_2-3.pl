@@ -7,5 +7,5 @@ my $x = 195;
 
 my $y = $x - ( $x%10 );
 
-print "Hodnota premenned x je: $x.\n";
-print "Po zaohruhleni na cele desiatky nadol: $y.\n";
+print "Hodnota premennej x je: $x.\n";
+print "Po zaokruhleni na cele desiatky nadol: $y.\n";
