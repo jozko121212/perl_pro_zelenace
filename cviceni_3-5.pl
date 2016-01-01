@@ -13,8 +13,8 @@ else {
         if ($a < 0) {$a = -$a;}
         if ($b < 0) {$b = -$b;}
         while ($a != $b) {
-                if ($a < $b) {$b -= $a;print $b."\n";}
-                else {$a -= $b;print $a."\n";}
+                if ($a < $b) {$b -= $a;}
+                else {$a -= $b;}
         }
         my $D = $a;
         print "Najmensi spolocny delitel je: $D\n";
