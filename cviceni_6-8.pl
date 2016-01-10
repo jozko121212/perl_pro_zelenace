@@ -7,7 +7,7 @@ open(SUBOR1, "cviceni_6-8.txt") or die "Nemozem otvorit subor\n";
 my @ludia = ();
 while (my $riadok = <SUBOR1>) {
 	chomp($riadok);
-	$riadok =~ s/(\w*) (\w*)/$2 $1/gi;
+	$riadok =~ s/\s*(\w*)\s+(\w*)/$2 $1/gi;
 	push(@ludia,$riadok);
 }
 
